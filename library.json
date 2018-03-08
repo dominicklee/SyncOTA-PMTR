@@ -1,0 +1,28 @@
+{
+    "name": "Makitronics SyncOTA",
+    "description": "Makitronics SyncOTA for PMTR based on RFC6455",
+    "keywords": "wifi, http, web, server, client, websocket",
+    "authors": [
+        {
+            "name": "Dominick Lee",
+            "url": "https://github.com/dominicklee/",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dominicklee/SyncOTA-PMTR.git"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "export": {
+        "exclude": [
+            "tests"
+        ]
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
